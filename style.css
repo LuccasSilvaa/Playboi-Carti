@@ -12,13 +12,17 @@
     text-decoration: none;
     font-family:'spb', Times, serif
 }
-
+body{
+  max-width: 1900px;
+  margin: 0 auto;
+}
 main{
   background-color: black;
   width: 100%;
   height: 75vh;
 }
 .navbar{
+    position: relative;
     padding: 23px;
     align-items: center;
     background-color: brown;
@@ -109,29 +113,52 @@ figcaption{
    width: 15vw;
    height: 30vh;
   }
-
+  .sangue-espalhado{
+    position: relative;
+  }
+  .sangue-espalhado img{
+    position: absolute;
+    left: -8vw;
+    top: -50vh;
+    width: 30vw;
+    height: 12;
+  }
+  .anarquism{
+    position: relative;
+  }
+  .anarquism img{
+    position: absolute;
+    width: 178px;
+    top: -40vh;
+    left: 54vw;
+    opacity: 0.6;
+  }
   footer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: brown;
-    height: 15vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    height: 9.5vh;
   }
   .redes-sociais{
+    margin-top: 2vh;  
     width: 15vw;
     height: 5vh;
     display: flex;
     justify-content: space-around;
   }
   .copyright{
-    width: 12vw;
-    height: 14vh;
+    position: relative;
+    left: 2vw;
+    margin-left: 55vw;
+    display: flex;
+    align-items: center;
+    width: 22vw;
+    height: 5vh;
   }
   .copyright img{
-    width: 12vw;
-    height: 10vh;
+    width: 10vw;
+    height: 8vh;
   }
   .copyright figcaption{
     color: black;
